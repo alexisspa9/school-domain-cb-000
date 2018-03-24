@@ -13,4 +13,10 @@ class School
   def roster
     @roster = {}
   end
+  def grade(n)
+    @roster.each.map do |roster|
+      roster
+    end
+
+  end
 end

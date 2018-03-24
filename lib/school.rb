@@ -7,11 +7,11 @@ class School
   def add_student(name,n)
     @student_name = name
     @student_number = n
-
+    @roster << (@student_number => @student_name)
   end
   def roster
     @roster = {
-      
+
     }
 
   end

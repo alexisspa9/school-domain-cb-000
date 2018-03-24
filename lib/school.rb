@@ -4,7 +4,7 @@ class School
     @name = name
 
   end
-  roster {}
+  roster = {}
   def add_student(name,n)
     @student_name = name
     @student_number = n

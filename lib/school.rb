@@ -11,9 +11,6 @@ class School
     @roster[@student_number] << @student_name
   end
   def roster
-    @roster = {
-
-    }
-
+    @roster = {}
   end
 end
